@@ -1,0 +1,195 @@
+*{
+	margin:10;
+	padding:10;
+}
+
+.slider{
+	width:450px;
+	height:450px;
+	overflow:hidden;
+	border:5px solid #8b00ff
+	
+}
+
+.middle{
+	position:absolute;
+	left:60%;
+	
+}
+
+.navigation{	
+	position:absolute;
+	bottom:16px;
+	left:50%;
+	transform:translateX(-50%);
+	display:flex;
+}
+
+.bar{
+	height:8px;
+	width:30px;
+	margin:6px;
+	cursor:pointer;
+	background-color: #8b00ff;
+	opacity: .7;
+	border-radius:10px;
+	transform:all .4s ease;
+}
+
+.bar:hover{
+	opacity:1;
+	transform:scale(1.1);
+	
+}
+
+input[name="r"] {
+	position:absolute;
+	visibility:hidden;
+	
+}
+
+.slides {
+	width:200%;
+	height:100%;
+	display:flex;
+	
+}
+
+.slide {
+	width:50%;
+	transform:all .6s ease;
+	
+}
+
+
+.slide img{
+	width:100%;
+	height:100%;
+	
+}
+
+#r1:checked ~ .s1 {
+	margin-left: 0%;
+}
+
+#r2:checked ~ .s1 {
+	margin-left: -50%;
+}
+
+.slider1{
+	width:450px;
+	height:450px;
+	overflow:hidden;
+	border:5px solid #8b00ff
+	
+}
+
+.middle1{
+	position:absolute;
+	left:60%;
+	
+}
+
+.navigation1{	
+	position:absolute;
+	bottom:16px;
+	left:50%;
+	transform:translateX(-50%);
+	display:flex;
+}
+
+.bar1{
+	height:8px;
+	width:30px;
+	margin:6px;
+	cursor:pointer;
+	background-color: #8b00ff;
+	opacity: .7;
+	border-radius:10px;
+	transform:all .4s ease;
+}
+
+.bar1:hover{
+	opacity:1;
+	transform:scale(1.1);
+	
+}
+
+input[name="t"] {
+	position:absolute;
+	visibility:hidden;
+	
+}
+
+.slides1 {
+	width:200%;
+	height:100%;
+	display:flex;
+	
+}
+
+.slide1 {
+	width:50%;
+	transform:all .6s ease;
+	
+}
+
+
+.slide1 img{
+	width:100%;
+	height:100%;
+	
+}
+
+#t1:checked ~ .s1 {
+	margin-left: 0%;
+}
+
+#t2:checked ~ .s1 {
+	margin-left: -50%;
+}
+
+
+
+h1{	
+	text-align:center;
+	padding:10px;
+	margin:10px;
+	
+}
+
+
+.button1{	
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	padding:20px 40px;
+	text-transform:uppercase;
+	color:#fff;
+	font-size:50px;
+	background-color: #111112;
+	border: 4px solid #8b00ff;	
+}
+
+.button1:hover{
+	background-color:#8b00ff;	
+}
+
+.ava{
+	display:flex;	
+	padding:10px;
+	
+}
+.avatext{
+	flex-direction:row-reverse;
+	
+	font-size:16px;
+	padding:10px;
+	margin:20px;
+}
+
+video{
+	border:5px solid #8b00ff;
+	display:flex;
+	
+}
